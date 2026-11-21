@@ -99,7 +99,7 @@ text(59, 28, "NOV 2026", F(SB, 11.5), "white", "mm")
 text(59, 70, "20", F(GOTH, 46), INK, "mm")
 text(59, 90, "Friday", F(NB, 12), MUTED, "mm")
 text(114, 12, fit(DATE, F(GOTH, 58), 890), F(GOTH, 58))
-dek = "Wall Street falls into correction; Russian missiles hit Kyiv and Poland; COP31 goes into overtime"
+dek = "Wall Street falls into correction; Russian missiles hit Kyiv, crash in Poland; COP31 runs over"
 text(116, 80, fit(dek, F(NB, 19.5), 888), F(NB, 19.5), INK)
 
 # ---------------- count bar ----------------
@@ -142,7 +142,6 @@ def art_markets(x, y):
     # arrow
     d.line(P(x + 214, y + 18, x + 262, y + 66), fill=RED, width=14 * K)
     d.polygon(P(x + 280, y + 84, x + 238, y + 78, x + 274, y + 42), fill=RED)
-    text(x + 300, y + 98, "\u22123.7%", F(GOTH, 22), "white", "rb")
 
 
 def art_war(x, y):
@@ -169,6 +168,8 @@ def art_war(x, y):
     for yy in range(8, 84, 12):
         d.line(P(x + 40, y + yy, x + 40, y + yy + 6), fill="#E9EDF3", width=2 * K)
     text(x + 14, y + 56, "PL", F(SB, 12), "#E9EDF3")
+    d.line(P(x + 34, y + 8, x + 22, y + 34), fill="#E9EDF3", width=2 * K)
+    d.polygon(P(x + 22, y + 30, x + 28, y + 38, x + 22, y + 46, x + 16, y + 38), fill="#F29B2E")
     text(x + 48, y + 56, "UA", F(SB, 12), "#E9EDF3")
 
 
@@ -276,9 +277,9 @@ for i, s in enumerate(cards):
     lab = f'{s["place"]} / {s["field"]}'
     text(x + 36, y + 9, fit(lab, F(NB, 13.5), CWd - 50 - cwid), F(NB, 13.5), rc)
     yy = y + 32
-    for ln in wrap(s["head"], F(NB, 23), CWd - 22, 2):
-        text(x + 12, yy, ln, F(NB, 23))
-        yy += 25
+    for ln in wrap(s["head"], F(NB, 24.5), CWd - 20, 2):
+        text(x + 12, yy, ln, F(NB, 24.5))
+        yy += 26
     yy = y + 87
     for ln in wrap(s["fact"], F(NR, 14), CWd - 50, 2):
         text(x + 12, yy, ln, F(NR, 14), "#2B3445")
@@ -335,7 +336,7 @@ for poly in SEAS:
     md.polygon([c * K for p in poly for c in proj(*p)], fill="#E4ECF4")
 img.paste(mimg, (MX * K, MY * K))
 d.rectangle(P(MX, MY, MX + MW, MY + mh), outline=RULE, width=1 * K)
-NUDGE = {1: (7, -5), 9: (-7, 6), 5: (-8, 3), 2: (5, 3), 4: (-4, 0)}
+NUDGE = {1: (7, -5), 9: (-7, 6), 5: (-8, 3), 2: (5, 3), 4: (-4, 0), 6: (-5, 4), 7: (6, -5), 11: (-8, 0)}
 for s in leads + cards:
     px, py = proj(*s["lonlat"])
     dx, dy = NUDGE.get(s["n"], (0, 0))
@@ -378,7 +379,7 @@ for tag, meaning in (("REPORTED", "by named outlets"), ("CLAIM", "one side, unve
     wdt = chip(x + tw(tag, F(SB, 9)) + 10, FY + 1, tag, 9)
     text(x + wdt + 5, FY + 1, meaning, F(NR, 12), MUTED)
     x += wdt + 5 + tw(meaning, F(NR, 12)) + 14
-foot1 = "Every story shown happened or was first reported on 20 November 2026."
+foot1 = "Every story shows a development that happened or was first reported on 20 November 2026."
 foot2 = "Sources: AP, Reuters, BBC, Al Jazeera, The Guardian, AFP, CNBC, WHO, UN News, Kyodo, ERR, Andina, Indian Express"
 text(1004, FY - 1, fit(foot1, F(NB, 12.5), 1004 - x), F(NB, 12.5), INK, "ra")
 text(1004, FY + 13, fit(foot2, F(NR, 11), 1004 - x), F(NR, 11), MUTED, "ra")

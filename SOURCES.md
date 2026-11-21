@@ -55,10 +55,10 @@ Tags: REPORTED = reported by named outlets; CLAIM = one side's statement, not in
 - https://indianexpress.com/article/india/cyclone-akvan-odisha-gopalpur-landfall-casualties-evacuation-10971128/
 - https://www.deccanchronicle.com/nation/cyclone-akvan-weakens-after-landfall-near-gopalpur-372-lakh-evacuated-2006339
 
-### 7. Myanmar calls UN genocide ruling unfair
+### 7. Myanmar calls genocide ruling unfair
 
 - Naypyitaw (Asia), Justice; **REPORTED**; time: Friday (MMT)
-- Fact: Spokeswoman points to judges' 9-6 split
+- Fact: Friday response; spokeswoman cites 9-6 vote
 - https://apnews.com/article/bangladesh-rohingya-myanmar-un-world-court-ruling-c76dcb3f97c1077262f87e0cba01bb78
 - https://www.channelnewsasia.com/asia/myanmar-icj-genocide-rohingya-not-fair-6568946
 
@@ -69,22 +69,22 @@ Tags: REPORTED = reported by named outlets; CLAIM = one side's statement, not in
 - https://apnews.com/article/peru-earthquake-andes-magnitude-67-d9c0a1de6be970d6a5a36993c607f29f
 - https://andina.pe/ingles/noticia-peru-67magnitude-earthquake-in-junin-shook-homes-buildings-in-lima-and-callao-1100888.aspx
 
-### 9. Trump: Iran wants a deal I can't accept
+### 9. Trump says Iran's deal offer is unacceptable
 
 - Washington (Americas), Politics; **REPORTED**; time: afternoon ET
 - Fact: Said at a White House news conference
 - https://apnews.com/article/iran-war-trump-diplomacy-attacks-8fd6dcd6dc4a1a77437cedc4567fbee8
 - https://english.news.cn/20261121/1cfb14c4f62b4554ac986193c1c4d0ed/c.html
 
-### 10. Saudis strike Yemen; Houthis hit back
+### 10. Saudi coalition says it struck Yemen port
 
 - Yemen / Saudi (Middle East), Conflict; **CLAIM**; time: Friday (AST)
-- Fact: Hodeidah port struck; Riyadh says it downed drones
+- Fact: Riyadh says it downed Houthi drones, missiles
 - https://apnews.com/article/saudi-yemen-war-iran-iraq-november-20-2026-16c39c487a23b53b73c5eabb7f0fd57a
 - https://www.arabnews.com/saudi-arabia/saudi-arabia-shoots-down-houthi-drones-and-missiles-3013163
 - https://www.reuters.com/3fec1b0a85a0/world/middle-east/yemens-houthis-threaten-strike-saudi-red-sea-ports-2026-11-20/
 
-### 11. WHO: Congo Ebola outbreak still spreading
+### 11. Ebola keeps spreading in Congo, WHO says
 
 - DR Congo (Africa), Health; **REPORTED**; time: WHO update, Friday
 - Fact: 11,613 confirmed cases and 5,678 deaths
